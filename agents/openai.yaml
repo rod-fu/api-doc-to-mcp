@@ -1,0 +1,7 @@
+interface:
+  display_name: "API 文档转 MCP"
+  short_description: "将接口文档转换为标准化且可审核的 MCP 服务方案"
+  default_prompt: "使用 $api-doc-to-mcp 将这份接口文档转换为可运行、可评审的 MCP 服务。"
+
+policy:
+  allow_implicit_invocation: true
